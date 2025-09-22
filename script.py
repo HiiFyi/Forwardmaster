@@ -4,12 +4,12 @@ from config import Config
 class  Script(object):
   START_TXT = """<b>ʜɪ {} ⚡
   
-ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ  <a href='https://t.me/Prime_Auto_Forward_ProBot'>ᴘʀɪᴍᴇ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
+ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ  <a href='https://t.me/MovesAuto_Forward_ProBot'>ᴘʀɪᴍᴇ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
 ɪ ᴄᴀɴ ꜰᴏʀᴡᴀʀᴅ ᴀʟʟ ᴍᴇssᴀɢᴇ ꜰʀᴏᴍ ᴏɴᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ</b>
 
 **ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ**
 
-<blockquote> 🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href='https://t.me/PrimeXBots'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a></blockquote>"""
+<blockquote> 🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ <a href='https://t.me/botmaster55'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a></blockquote>"""
   
   HELP_TXT = """<b><u>🔆 Help</b></u>
 
@@ -45,9 +45,9 @@ class  Script(object):
   ABOUT_TXT = """<b>
 ╔════❰ ғᴏʀᴡᴀʀᴅ ʙᴏᴛ ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
-║┣⪼📃ʙᴏᴛ : [ᴘʀɪᴍᴇ Fᴏʀᴡᴀᴅ Bᴏᴛ](https://t.me/Prime_Auto_Forward_ProBot)
-║┣⪼👦Cʀᴇᴀᴛᴏʀ : [ᴍʀ.ᴘʀɪᴍᴇ](https://t.me/prime_Nayem)
-║┣⪼🤖Uᴘᴅᴀᴛᴇ : [ᴘʀɪᴍᴇXʙᴏᴛs](https://t.me/PrimeXBots)
+║┣⪼📃ʙᴏᴛ : [ᴘʀɪᴍᴇ Fᴏʀᴡᴀᴅ Bᴏᴛ](https://t.me/MovesAuto_Forward_ProBot)
+║┣⪼👦Cʀᴇᴀᴛᴏʀ : [ᴍʀ.ᴘʀɪᴍᴇ](https://t.me/botmaster55)
+║┣⪼🤖Uᴘᴅᴀᴛᴇ : [ᴘʀɪᴍᴇXʙᴏᴛs](https://t.me/botmaster55)
 ║┣⪼📡Hᴏsᴛᴇᴅ ᴏɴ : Sᴜᴘᴇʀ Fᴀsᴛ
 ║┣⪼🗣️Lᴀɴɢᴜᴀɢᴇ : Pʏᴛʜᴏɴ3
 ║┣⪼📚Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ Gᴀᴛʜᴇʀ 2.11.0 
@@ -66,7 +66,7 @@ class  Script(object):
 ║┃
 ║┣⪼**🔃 Fᴏʀᴡᴀʀᴅɪɴɢs:** `{}`
 ║┃
-║┣⪼ ✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/PrimeXBots'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
+║┣⪼ ✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/botmaster55'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
 ║┃
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁۪۪
@@ -97,7 +97,7 @@ class  Script(object):
 ║┃
 ║┣⪼<b>𖨠 Pᴇʀᴄᴇɴᴛᴀɢᴇ:</b> <code>{}</code> %
 ║┣
-║┣⪼<b>✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/PrimeXBots'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
+║┣⪼<b>✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/botmaster55'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣ 
 ╚════❰ {} ❱══❍⊱❁۪۪
 """
@@ -108,7 +108,7 @@ class  Script(object):
 ║┃
 ║┣⪼ <b>ᴅᴜᴘʟɪᴄᴀᴛᴇ ᴅᴇʟᴇᴛᴇᴅ:</b> <code>{}</code> 
 ║┣⪼
-║┣⪼ <b>✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/PrimeXBots'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
+║┣⪼ <b>✯ ᴘᴏᴡᴇʀᴇᴅ ʙʏ :</b> <a href='https://t.me/botmaster55'>ᴘʀɪᴍᴇXʙᴏᴛs 🔥</a>
 ║╰━━━━━━━━━━━━━━━➣
 ╚════❰ {} ❱══❍⊱❁۪۪
 """
