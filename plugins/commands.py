@@ -32,10 +32,10 @@ async def is_subscribed(bot, query, channel):
 main_buttons = [[
     InlineKeyboardButton('⚙ sᴇᴛᴛɪɴɢs ⚙', callback_data='settings#main')
 ],[
-    InlineKeyboardButton('💬 sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ClipMateBhai'),
-    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/ClipMateBhai')
+    InlineKeyboardButton('💬 sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ', url='https://t.me/MovieSearchAuto'),
+    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/MovieSearchAutoGroupnumb')
 ],[
-    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/ClipMateBhai')
+    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/MovieSearchAuto')
 ],[
     InlineKeyboardButton('👨‍💻 ʜᴇʟᴘ', callback_data='help'),
     InlineKeyboardButton('💁 ᴀʙᴏᴜᴛ', callback_data='about')
@@ -245,7 +245,7 @@ async def cb_handler(client, query):
             ),
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("♚ ᴀᴅᴍɪɴ ♚", url="https://t.me/Prime_Admin_Support_ProBot")],
+                    [InlineKeyboardButton("♚ ᴀᴅᴍɪɴ ♚", url="https://t.me/botmaster55")],
                     [InlineKeyboardButton("• ᴄʟᴏsᴇ •", callback_data="closes")]
                 ]
             )
