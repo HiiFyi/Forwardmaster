@@ -4,7 +4,7 @@ from os import environ
 
 id_pattern = re.compile(r'^.\d+$')
 
-AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002294203953').split()] 
+AUTH_CHANNEL = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('AUTH_CHANNEL', '-1002638468863').split()] 
 # give channel id with separate space. Ex: ('-10073828 -102782829 -1007282828')
 
 
@@ -25,6 +25,7 @@ class temp(object):
     forwardings = 0
     BANNED_USERS = []
     IS_FRWD_CHAT = []
+
 
 
 
