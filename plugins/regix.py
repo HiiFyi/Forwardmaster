@@ -98,7 +98,7 @@ async def pub_(bot, message):
             user_have_db = True
     temp.forwardings += 1
     await db.add_frwd(user)
-    await send(client, user, "<b>Fᴏʀᴡᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @MovesAuto_Forward_ProBot 🔥</b>")
+    await send(client, user, "<b>Fᴏʀᴡᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
     sts.add(time=True)
     sleep = 1 if _bot['is_bot'] else 10
     await msg_edit(m, "<code>processing...</code>") 
@@ -170,7 +170,7 @@ async def pub_(bot, message):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @MovesAuto_Forward_ProBot 🔥</b>")
+        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
         await edit(user, m, 'ᴄᴏᴍᴘʟᴇᴛᴇᴅ', "completed", sts) 
         if user_have_db:
             await user_db.drop_all()
@@ -253,7 +253,7 @@ async def edit(user, msg, title, status, sts):
    estimated_total_time = TimeFormatter(milliseconds=estimated_total_time)
    estimated_total_time = estimated_total_time if estimated_total_time != '' else '0 s'
    if status in ["cancelled", "completed"]:
-      button.append([InlineKeyboardButton('• ᴄᴏᴍᴘʟᴇᴛᴇᴅ ​•', url='https://t.me/MovesAuto_Forward_ProBot')])
+      button.append([InlineKeyboardButton('• ᴄᴏᴍᴘʟᴇᴛᴇᴅ ​•', url='https://t.me/PrimeXBots')])
    else:
       button.append([InlineKeyboardButton('• ᴄᴀɴᴄᴇʟ', 'terminate_frwd')])
    await msg_edit(msg, text, InlineKeyboardMarkup(button))
@@ -265,7 +265,7 @@ async def is_cancelled(client, user, msg, sts):
       if sts.TO in temp.IS_FRWD_CHAT:
          temp.IS_FRWD_CHAT.remove(sts.TO)
       await edit(user, msg, 'ᴄᴀɴᴄᴇʟʟᴇᴅ', "cancelled", sts)
-      await send(client, user, "<b>❌ ғᴏʀᴡᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ.  ɪꜰ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍꜱ, ʏᴏᴜ ᴄᴀɴ ᴍᴇꜱꜱᴀɢᴇ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: @botmaster55 🔥</b>")
+      await send(client, user, "<b>❌ ғᴏʀᴡᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ.  ɪꜰ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍꜱ, ʏᴏᴜ ᴄᴀɴ ᴍᴇꜱꜱᴀɢᴇ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: @Prime_Support_Group 🔥</b>")
       await stop(client, user)
       return True 
    return False 
@@ -591,7 +591,7 @@ async def restart_pending_forwads(bot, user):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @MovesAuto_Forward_ProBot 🔥</b>")
+        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
         if user_have_db:
             await user_db.drop_all()
             await user_db.close()
