@@ -57,7 +57,7 @@ async def start(client, message):
                     btn.append([InlineKeyboardButton("♻️ Try Again ♻️", url=f"https://t.me/{username}?start=true")])
 
                 await message.reply_photo(
-                    photo="https://i.postimg.cc/xdkd1h4m/IMG-20250715-153124-952.jpg",  #
+                    photo="https://image.zaw-myo.workers.dev/image/101e942a-7ce4-48a7-ac4b-3454b6479fee",  #
                     caption=(
                         "<b>👋 ʜᴇʟʟᴏ ᴅᴇᴀʀ ⚡,\n\n"
                         "ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜꜱᴇ ᴍᴇ, ʏᴏᴜ ᴍᴜꜱᴛ ꜰɪʀꜱᴛ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ.\n\n"
@@ -80,7 +80,7 @@ async def start(client, message):
     # ফটো পাঠানো
     await client.send_photo(
         chat_id=message.chat.id,
-        photo="https://i.postimg.cc/Wz7qHgrS/IMG-20250922-101022-775.jpg",  # 
+        photo="https://image.zaw-myo.workers.dev/image/101e942a-7ce4-48a7-ac4b-3454b6479fee",  # 
         caption=Script.START_TXT.format(message.from_user.first_name),  # 
         reply_markup=reply_markup  # 
     )
