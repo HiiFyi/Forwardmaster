@@ -32,15 +32,15 @@ async def is_subscribed(bot, query, channel):
 main_buttons = [[
     InlineKeyboardButton('⚙ sᴇᴛᴛɪɴɢs ⚙', callback_data='settings#main')
 ],[
-    InlineKeyboardButton('💬 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Prime_Support_group'),
-    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/PrimeCineZone')
+    InlineKeyboardButton('💬 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/Ritikmoves2'),
+    InlineKeyboardButton('🎬 ᴍᴏᴠɪᴇꜱ ᴄʜᴀɴɴᴇʟ', url='https://t.me/MovieSearchAutoGroupnumb')
 ],[
-    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/PrimeXbots')
+    InlineKeyboardButton('✇ ᴊᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ ✇', url='https://t.me/Ritikmoves2')
 ],[
     InlineKeyboardButton('👨‍💻 ʜᴇʟᴘ', callback_data='help'),
     InlineKeyboardButton('💁 ᴀʙᴏᴜᴛ', callback_data='about')
 ],[
-    InlineKeyboardButton('☆ 💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫 ☆', url='https://t.me/Prime_Nayem')
+    InlineKeyboardButton('☆ 💫 𝗖𝗥𝗘𝗔𝗧𝗢𝗥 💫 ☆', url='https://t.me/botmaster55')
 ]]
 
 
