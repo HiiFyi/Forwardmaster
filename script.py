@@ -4,7 +4,7 @@ from config import Config
 class  Script(object):
   START_TXT = """<b>ʜɪ {} ⚡
   
-ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ  <a href='https://t.me/MovesAuto_Forward_ProBot'>ᴘʀɪᴍᴇ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
+ɪ'ᴍ ᴀ ᴀᴅᴠᴀɴᴄᴇᴅ  <a href='https://t.me/MasterForward1_bot'>ᴘʀɪᴍᴇ ꜰᴏʀᴡᴀʀᴅ ʙᴏᴛ</a>
 ɪ ᴄᴀɴ ꜰᴏʀᴡᴀʀᴅ ᴀʟʟ ᴍᴇssᴀɢᴇ ꜰʀᴏᴍ ᴏɴᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴀɴᴏᴛʜᴇʀ ᴄʜᴀɴɴᴇʟ</b>
 
 **ᴄʟɪᴄᴋ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ ᴋɴᴏᴡ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ᴍᴇ**
