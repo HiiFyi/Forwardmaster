@@ -98,7 +98,7 @@ async def pub_(bot, message):
             user_have_db = True
     temp.forwardings += 1
     await db.add_frwd(user)
-    await send(client, user, "<b>Fᴏʀᴡᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
+    await send(client, user, "<b>Fᴏʀᴡᴀᴅɪɴɢ sᴛᴀʀᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @botmaster55 🔥</b>")
     sts.add(time=True)
     sleep = 1 if _bot['is_bot'] else 10
     await msg_edit(m, "<code>processing...</code>") 
@@ -170,7 +170,7 @@ async def pub_(bot, message):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
+        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @botmaster55 🔥</b>")
         await edit(user, m, 'ᴄᴏᴍᴘʟᴇᴛᴇᴅ', "completed", sts) 
         if user_have_db:
             await user_db.drop_all()
@@ -265,7 +265,7 @@ async def is_cancelled(client, user, msg, sts):
       if sts.TO in temp.IS_FRWD_CHAT:
          temp.IS_FRWD_CHAT.remove(sts.TO)
       await edit(user, msg, 'ᴄᴀɴᴄᴇʟʟᴇᴅ', "cancelled", sts)
-      await send(client, user, "<b>❌ ғᴏʀᴡᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ.  ɪꜰ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍꜱ, ʏᴏᴜ ᴄᴀɴ ᴍᴇꜱꜱᴀɢᴇ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: @Prime_Support_Group 🔥</b>")
+      await send(client, user, "<b>❌ ғᴏʀᴡᴀᴅɪɴɢ ᴄᴀɴᴄᴇʟʟᴇᴅ.  ɪꜰ ʏᴏᴜ ᴇɴᴄᴏᴜɴᴛᴇʀ ᴀɴʏ ᴘʀᴏʙʟᴇᴍꜱ, ʏᴏᴜ ᴄᴀɴ ᴍᴇꜱꜱᴀɢᴇ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ: @botmaster55 🔥</b>")
       await stop(client, user)
       return True 
    return False 
@@ -591,7 +591,7 @@ async def restart_pending_forwads(bot, user):
             temp.IS_FRWD_CHAT.remove(sts.TO)
             return await stop(client, user)
         temp.IS_FRWD_CHAT.remove(sts.TO)
-        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @PrimeXBots 🔥</b>")
+        await send(client, user, "<b>🎉 ғᴏʀᴡᴀᴅɪɴɢ ᴄᴏᴍᴘʟᴇᴛᴇᴅ. ᴘᴏᴡᴇʀᴇᴅ ʙʏ: @botmaster55 🔥</b>")
         if user_have_db:
             await user_db.drop_all()
             await user_db.close()
