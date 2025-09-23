@@ -80,7 +80,7 @@ async def start(client, message):
     # ফটো পাঠানো
     await client.send_photo(
         chat_id=message.chat.id,
-        photo="https://i.postimg.cc/Wz7qHgrS/IMG-20250922-101022-775.jpg",  # 
+        photo="https://image.zaw-myo.workers.dev/image/101e942a-7ce4-48a7-ac4b-3454b6479fee",  # 
         caption=Script.START_TXT.format(message.from_user.first_name),  # 
         reply_markup=reply_markup  # 
     )
@@ -234,7 +234,7 @@ async def cb_handler(client, query):
 
         # reply with the photo and buttons
         await query.message.reply_photo(
-            photo="https://i.postimg.cc/hvFZ93Ct/file-000000004188623081269b2440872960.png",
+            photo="https://image.zaw-myo.workers.dev/image/101e942a-7ce4-48a7-ac4b-3454b6479fee",
             caption=(
                 f"👋 Hello Dear 👋,\n\n"
                 "⚠️ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀ ᴘʀɪᴠᴀᴛᴇ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ\n\n"
