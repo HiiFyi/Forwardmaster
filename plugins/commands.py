@@ -44,7 +44,7 @@ main_buttons = [[
 ]]
 
 
-@Client.on_message(filters.private & filters.command(['start']))
+@Client.on_message(filters.private & filters.command(['start']) & filters.user(Config.BOT_OWNER))
 async def start(client, message):
     if AUTH_CHANNEL:
         try:
