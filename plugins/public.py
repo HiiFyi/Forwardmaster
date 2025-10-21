@@ -14,7 +14,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 
 
 
-@Client.on_message(filters.private & filters.command(["forward"]) & filters.user(Config.BOT_OWNER))
+@Client.on_message(filters.private & filters.command(["forward"]))
 async def run(bot, message):
     buttons = []
     btn_data = {}
