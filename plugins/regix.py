@@ -417,7 +417,7 @@ async def close(bot, update):
 
 
 
-@Client.on_message(filters.private & filters.command(['stop']))
+@Client.on_message(filters.private & filters.command(['stop']) & filters.user(Config.BOT_OWNER))
 async def stop_forward(client, message):
     user_id = message.from_user.id
     sts = await message.reply('<code>Stoping...</code>')
