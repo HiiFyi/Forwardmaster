@@ -134,7 +134,7 @@ class CLIENT:
 
 
 
-@Client.on_message(filters.private & filters.command('reset'))
+@Client.on_message(filters.private & filters.command('reset') & filters.user(Config.BOT_OWNER))
 async def forward_tag(bot, m):
    default = await db.get_configs("01")
    await db.update_configs(m.from_user.id, default)
